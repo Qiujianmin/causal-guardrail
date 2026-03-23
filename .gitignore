@@ -1,0 +1,32 @@
+# Sensitive data - DO NOT UPLOAD
+data/
+*.json
+*.csv
+*.txt
+
+# Model checkpoints - DO NOT UPLOAD
+*.pt
+*.pth
+*.bin
+outputs/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
